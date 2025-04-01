@@ -206,7 +206,7 @@ class MusicBot:
 
             duration = song.duration or await get_audio_duration(file_path)
             text = (
-                f"<b>Now playing <a href='{song.thumbnail or 'https://t.me/FallenProjects'}'>:</a></b>\n\n"
+                f"<b>Now playing <a href='{song.thumbnail or 'https://t.me/FRIENDS_ZONE_CHATTING_GROUP'}'>:</a></b>\n\n"
                 f"‣ <b>Title:</b> {song.name}\n"
                 f"‣ <b>Duration:</b> {sec_to_min(duration)}\n"
                 f"‣ <b>Requested by:</b> {song.user}"
